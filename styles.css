@@ -2,10 +2,57 @@ body {
     font-family: system-ui, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     min-height: 100vh;
+    margin: 0;
+    
 }
 
 a {
     text-decoration: none;
+}
+
+.header, 
+.header-content {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-head {
+    display: flex;
+    margin-right: auto;
+}
+
+.right-head {
+    display: flex;
+    margin-left: auto;
+    gap: 5px;
+}
+
+.main-content,
+.quote,
+.sign-up {
+    display: flex;
+    flex: 1;
+}
+
+.left-head-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    background-color: darkgrey
+}
+
+.container {
+    height: 100%;
 }
